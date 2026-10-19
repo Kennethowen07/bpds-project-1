@@ -47,7 +47,11 @@ Notebook mengirim data ke PostgreSQL lewat SQLAlchemy, lalu Metabase membaca tab
 
 ## Business Dashboard
 
-Dashboard dibuat di Metabase dengan nama `HR Attrition Dashboard` dan berisi sepuluh kartu.
+Dashboard bisa dibuka langsung di Tableau Public tanpa login, [HR Attrition Dashboard](https://public.tableau.com/views/HRAttritionDashboard_17923480453320/HRAttritionDashboard).
+
+![HR Attrition Dashboard](tableau-dashboard.png)
+
+Dashboard berisi sepuluh kartu.
 
 Tiga kartu ringkasan menampilkan attrition rate keseluruhan, komposisi karyawan bertahan dan keluar, serta jumlah karyawan yang diprediksi berisiko.
 
@@ -55,7 +59,9 @@ Enam kartu berikutnya memecah attrition rate berdasarkan lembur, posisi, status 
 
 Kartu terakhir berupa tabel berisi dua puluh karyawan dengan probabilitas keluar tertinggi, lengkap dengan posisi, status lembur, dan gaji, supaya HR bisa langsung menindaklanjuti.
 
-Akses dashboard.
+Versi awal dashboard dibuat di Metabase untuk submission Dicoding dan hanya berjalan di lokal.
+
+Akses dashboard Metabase.
 
 ```
 URL       http://localhost:3000
